@@ -1,0 +1,72 @@
+body
+{
+    background-color: whitesmoke;
+    font-family: "PT Sans", serif;
+    height: 1000px;
+}
+
+
+
+input{
+    border: 2px solid rgb(253, 252, 252);
+    font-size: 15px;
+    border-radius: 4px;
+    font-family: "Lora", serif;
+}
+
+label{
+    font-family: "Lora", serif;
+}
+aside
+{
+    float: left;
+    text-align: center;
+    background-color: #55969a;
+    width: 300px;
+    height: max-content;
+}
+
+
+#mother
+{
+    font-size: 20px;
+   max-width: 100%;
+    
+        margin-left: auto;
+        margin-right: auto;
+      
+    gap: 4px;
+}
+
+
+main
+{
+    float: right;
+    border: 2px solid gray;
+    padding: 5px;
+}
+
+#tbl
+{
+    width: 850px;
+    display: rgb(138, 215, 219);
+}
+
+#tbl th{
+    background-color: rgb(242, 149, 62);
+    color: rgb(255, 255, 255);
+    
+    padding: 10px;
+}
+
+#btn {
+    background-color: #e49c0d; /* Green */
+    border: none;
+    color: black;
+    padding: 20px 20;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    font-family: "Lora", serif;
+  }
